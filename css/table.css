@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: black;
+}
+thead {
+  background-color: hsl(24, 100%, 1%);
+  color: #fff;
+}
+
+.total {
+  font-weight: bold;
+  text-align: right;
+}
+
+.total td:first-child {
+  text-align: left;
+ 
+}
+.con{
+  color: #f7e1d8;
+  font-size: larger;
+  background-color: darkslategrey;
+  padding: 1rem 1rem;
+}

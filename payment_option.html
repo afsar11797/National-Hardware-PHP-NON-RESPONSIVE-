@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Payment Options</title>
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .container {
+        margin: 50px auto;
+        max-width: 600px;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      }
+      
+      h1 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      table {
+        margin: 0 auto;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 500px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      }
+      
+      th {
+        background-color: #e5e5e5;
+        text-align: left;
+        padding: 10px;
+      }
+      
+      td {
+        border-bottom: 1px solid #e5e5e5;
+        padding: 10px;
+      }
+      
+      .btn {
+        display: block;
+        margin: 20px auto 0;
+        text-align: center;
+      }
+      
+      .btn a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #0077cc;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.2s;
+      }
+      
+      .btn a:hover {
+        background-color: #0066b2;
+      }
+      
+      .payment-icon {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+      
+      .payment-icon img {
+        max-width: 30px;
+      }
+      
+      @media screen and (max-width: 600px) {
+        table {
+          font-size: 0.9em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Payment Options</h1>
+      <table>
+        <tr>
+          <th>Payment Method</th>
+          <th>Description</th>
+          <th></th>
+        </tr>
+        <tr>
+          <td>
+            <span class="payment-icon"><img src="images/cod.jpg" alt="Cash" width=70></span>
+            Cash on Delivery
+          </td>
+          <td>Pay with cash upon delivery of your order</td>
+          <td class="btn"><a href="order_confirm.html">Select</a></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="payment-icon"><img src="images/card.jpg" alt="Credit Card" width=70></span>
+            Credit/Debit Card
+          </td>
+          <td>Pay with your card</td>
+          <td class="btn"><a href="payment_card.html">Select</a></td>
+        </tr>
+        <tr>
+          <td>
+            <span class="payment-icon"><img src="images/upi.jpg" alt="Online UPI Payment" width=70></span>
+            Online UPI Payment
+          </td>
+          <td>Pay with your UPI account</td>
+          <td class="btn"><a href="payment_upi.html">Select</a></td>
+          </tr>
+      </table>
+    </div>
+  </body>
+</html>
+       
+
+

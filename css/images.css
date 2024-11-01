@@ -1,0 +1,371 @@
+.background {
+  position: relative;
+}
+.background .background_img1{
+  display: block;
+  margin-left: auto;
+}
+.background .backgroundtext{
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  transform: translateY(50%);
+  color: rgb(23, 122, 122);
+  letter-spacing: 1.5px;
+}
+.section .bolts{
+    width: 55%;
+    height: 99%;
+    top:52em;
+    left: 1em;
+    border: 2px solid black;
+  }
+  .img-slider .section_left{
+    padding-top: 2em;
+    padding-left: 1em;
+    padding-bottom: 2em;
+    background-color: rgb(227, 231, 231);
+  }
+  .section__text a{
+    color: black;
+  }
+
+  .section_right .de{
+    width:50%;
+    height: 90%;
+    left: 45em;
+    top: 51em;
+    border: 2px solid black;
+  }
+  .img-slider .section_right{
+    padding-top: 2em;
+    padding-left: 1em;
+    background-color: rgb(210, 212, 212);
+  }
+  .img-slider .slider__section .section__text {
+    position: absolute;
+    right: 1em;
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+  .img-slider .slider__section .spannertext {
+    position: absolute;
+    right: 11em;
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+.section_down .chop_saw{
+  position: relative;
+  width: 300px;
+  height: 353px;
+  left: 10px;
+  border: 3px solid black;
+}
+.section_down .choptext{
+  position: absolute;
+  right: 72em;
+  top: 1600px;
+  transform: translateY(50%);
+}
+.section_down a{
+  color: black;
+}
+.circular{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  left: 22em;
+  bottom: 360px;
+  border: 3px solid black;
+}
+.circulartext{
+  position: absolute;
+  right: 50em;
+  top: 1600px;
+  transform: translateY(50%);
+}
+.circulartext a{
+  color: black;
+}
+.drill{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  left: 23em;
+  bottom: 360px;
+  border: 3px solid black;
+
+}
+.drilltext{
+  position: absolute;
+  right:32em;
+  top: 1600px;
+  transform: translateY(50%);
+}
+.drilltext a{
+  color: black;
+}
+.marble{
+  position: relative;
+  width: 300px;
+  height: 350px;
+  left:25em;
+  bottom: 360px;
+  border: 3px solid black;
+}
+.marbletext{
+  position: absolute;
+  right:7em;
+  top: 1600px;
+  transform: translateY(50%);
+
+}
+.marbletext a{
+  color: black;
+}
+
+.section_down_down .pipe{
+  position: relative;
+  bottom: 150px;
+  width: 300px;
+  height: 353px;
+  left: 10px;
+  border: 3px solid black;
+}
+.section_down_down .pipetext{
+  position: absolute;
+  right: 70em;
+  top: 2173px;
+  transform: translateY(50%);
+}
+.pipetext  a{
+  color: black;
+}
+.vernier{
+  position: relative;
+  bottom: 510px;
+  width: 300px;
+  height: 353px;
+  left: 22em;
+  border: 3px solid black;
+}
+.verniertext{
+  position: absolute;
+  right: 52em;
+  top: 2170px;
+  transform: translateY(50%);
+
+}
+.verniertext a{
+  color: black;
+}
+.cotton{
+  position: relative;
+  bottom: 510px;
+  width: 300px;
+  height: 353px;
+  left: 24em;
+  border: 3px solid black;
+}
+.cottontext{
+  position: absolute;
+  right: 27em;
+  top: 2170px;
+  transform: translateY(50%);
+
+}
+.cottontext a{
+  color: black;
+}
+.ice{
+  position: relative;
+  bottom: 510px;
+  width: 300px;
+  height: 353px;
+  left: 26em;
+  border: 3px solid black;
+
+}.icetext{
+  position: absolute;
+  right: 7em;
+  top: 2170px;
+  transform: translateY(50%);
+
+}
+.icetext a{
+  color: black;
+}
+.toptext{
+  
+  text-decoration-line: underline;
+  position: absolute;
+  right: 70em;
+  top: 2410px;
+  transform: translateY(50%);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  
+  
+}
+
+.section_top .welding{
+  position: relative;
+  bottom: 200px;
+  width: 350px;
+  height: 353px;
+  left: 4em;
+  border: 3px solid black;
+}
+.section_top .weldingtext{
+position: absolute;
+right: 67em;
+top:2850px;
+transform: translateY(50%);
+}
+.weldingtext a{
+  color: black;
+}
+.monoblock{
+  position: relative;
+  bottom:560px;
+  width: 350px;
+  height: 353px;
+  left: 30em;
+  border: 3px solid black;
+
+}
+.monoblocktext{
+  position: absolute;
+  right:42em;
+  top:2850px;
+  transform: translateY(50%);
+
+}
+.monoblocktext a{
+  color: black;
+}
+.heatgun{
+  position: relative;
+  top: -35em;
+  width: 350px;
+  height: 353px;
+  left: 34em;
+  border: 3px solid black;
+}
+.heatguntext{
+  position: absolute;
+  right:17em;
+  top:2850px;
+  transform: translateY(50%);
+}
+.heatguntext a{
+  color: black;
+}
+.section_top_top .plastic_sealing{
+  position: relative;
+  bottom: 310px;
+  width: 350px;
+  height: 353px;
+  left: 5em;
+  border: 3px solid black;
+}
+.plastic_sealingtext{
+position: absolute;
+right: 61em;
+top:3450px;
+transform: translateY(50%);
+}
+.plastic_sealingtext a{
+  color: black;
+}
+.bagclosing{
+  position: relative;
+  bottom: 670px;
+  width: 350px;
+  height: 353px;
+  left: 32em;
+  border: 3px solid black;
+}
+
+.bagclosingtext{
+position: absolute;
+right: 35em;
+top:3450px;
+transform: translateY(50%);
+}
+.bagclosingtext a{
+  color: black;
+}
+.pressure_washer{
+  position: relative;
+  bottom: 670px;
+  width: 350px;
+  height: 353px;
+  left: 36em;
+  border: 3px solid black;
+}
+
+.pressure_washertext{
+position: absolute;
+right: 10em;
+top:3450px;
+transform: translateY(50%);
+}
+.pressure_washertext a{
+  color: black;
+}
+.vaccum_cleaner{
+  position: relative;
+  bottom: 40px;
+  width: 350px;
+  height: 353px;
+  left:-39em;
+  border: 3px solid black;
+}
+
+.vaccum_cleanertext{
+position: absolute;
+right: 65em;
+top:4100px;
+transform: translateY(50%);
+}
+.vaccum_cleanertext a{
+  color: black;
+}
+.Hydraulic_Pump{
+  position: relative;
+  bottom: 400px;
+  width: 350px;
+  height: 353px;
+  left:32em;
+  border: 3px solid black;
+}
+
+.hydraulic_pumptext{
+position: absolute;
+right: 40em;
+top:4100px;
+transform: translateY(50%);
+}
+.hydraulic_pumptext a{
+  color: black;
+}
+.drills{
+  position: relative;
+  bottom: 400px;
+  width: 350px;
+  height: 353px;
+  left:36em;
+  border: 3px solid black;
+}
+
+.drillstext{
+position: absolute;
+right: 13em;
+top:4100px;
+transform: translateY(50%);
+}
+.drillstext a{
+  color: black;
+}
